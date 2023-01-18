@@ -1,0 +1,105 @@
+body {
+  /* background-color: #faf8f6;
+  background-color: var(--lightDeepColor-2); */
+  background-color: rgb(216, 205, 205);
+  font-family: Plus Jakarta Sans,sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  box-shadow: none!important;
+}
+.themeDarkColor {
+  color: #2e374f;
+  /* color: var(--themeDarkColor); */
+}
+.lightColor {
+  color: #9ea3ae;
+  /* color: var(--lightColor); */
+}
+
+.position-left-10 {
+  left: 10px;
+}
+.position-top--8 {
+  top: -8px;
+}
+.bodyXSmall {
+  font-size: 10px;
+  /* font-size: var(--bodyXSmal); */
+}
+.border-theme {
+  border-color: #f28705!important;
+  /* border-color: var(--themeColor)!important; */
+}
+.bodySmall {
+  font-size: 14px;
+  /* font-size: var(--bodySmal); */
+}
+.position-right-6 {
+  right: 6px;
+}
+.position-top-6 {
+  top: 6px;
+}
+
+
+.themeBtn {
+  background: #f28705 ;
+  /* background-color: var(--themeColor); */
+  border: 2px solid #f28705;
+  /* border: 2px solid var(--themeColor); */
+  border-radius: 6px;
+  color: #fff;
+  /* color: var(--themeWhiteColor); */
+  padding: 5px 10px;
+  text-align: center;
+  transition: all .4s ease-in-out;
+  width: 100%;
+}
+.themeBtn:hover {
+  background-color: initial;
+  
+  color: #f28705;
+  border: 2px solid #f28705;
+  /* color: var(--themeColor); */
+}
+.linkColor{
+  text-decoration: none;
+  color: #f28705;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid green!important;
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+/* forget page */
+.forgetbtn{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+.forbtn:hover .forgetbtn{
+  color: #f28705;;
+}
+
+
+
